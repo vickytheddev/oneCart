@@ -18,7 +18,7 @@ app.use(express.json())
 app.use(cookieParser())
 
 app.use(cors({
- origin:["https://onecart-frontend-dtdu.onrender.com" , "http://localhost:5174"],
+ origin:["https://onecart-frontend-dtdu.onrender.com" , "https://onecart-admin-g5hv.onrender.com"],
  credentials:true
 }))
 
